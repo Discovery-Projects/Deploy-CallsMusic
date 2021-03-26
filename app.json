@@ -5,8 +5,8 @@
   "repository": "https://github.com/callsmusic/callsmusic-2_heroku",
   "stack": "container",
   "env": {
-    "SESSION_NAME": {
-      "description": "A Pyrogram session string.",
+    "STRING_SESSION": {
+      "description": "A Pyrogram session string. Use @StringSessionGen_Bot",
       "required": true
     },
     "BOT_TOKEN": {
